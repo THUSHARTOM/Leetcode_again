@@ -45,17 +45,19 @@ class MyHashMap:
             else:
                 curr = curr.next
         
-        if self.hashMap[key]:
-            self.hashMap[key] = None
 
     def hash(self, key):
         return key % len(self.map) # length of map should not be zero to avoid division by zero error
 
 H = MyHashMap()
-H.put(1, 21)
+H.put(1, 1)
+H.put(2, 2)
 print(H.get(1))
-H.remove(1)
-print(H.get(1))
+print(H.get(3))
+H.put(2,1)
+print(H.get(2))
+H.remove(2)
+print(H.get(2))
 
     
 # print(1001%1000)
