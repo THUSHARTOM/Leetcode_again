@@ -1,7 +1,8 @@
 
 # for this solution we need to keep track of all the nodes that we visited
 # for preorder traversal there is no need for that
-# Needs to build a binary tree for this code to work
+
+# Needs to build a binary tree for this code to work but works in leetcode
 
 
 
