@@ -60,8 +60,7 @@ class Solution:
             print("T == ", t[t_pointer])
             s_pointer = nextValidChar(s,s_pointer)
             print("S == ", s[s_pointer])
-            # print("self.nextValidChar(t,t_pointer)", t[t_pointer])
-            # print("self.nextValidChar(s,s_pointer)", s[s_pointer])
+           
             char_s = s[s_pointer] if s_pointer>=0 else ""
             char_t = t[t_pointer] if t_pointer>=0 else ""
             if char_s != char_t:

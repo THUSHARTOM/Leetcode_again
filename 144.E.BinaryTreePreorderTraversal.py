@@ -8,7 +8,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def preorderTraversal(self, root: [TreeNode]):
+    def preorderTraversal(self, root):
         curr, stack  = root, [] 
         res = []
 
